@@ -91,7 +91,15 @@ main(){
 	printf("A media eh %.2f", m2);
 }
 
-Tipos de dados numéricos em C
+  CONSTRUÇÃO DE ALGORITMOS
+
+Tipos de dados: Define os valores que um dado pode assumir e as operações que podem ser efetuadas sobre o dado.
+
+  TIPOS PRIMITIVOS DE DADOS
+ 1 - Números
+ 	- Inteiros: valores inteiros, positivos ou negativos.
+		ex: 345, -10, 1321
+		
 
 
 
