@@ -99,7 +99,10 @@ Tipos de dados: Define os valores que um dado pode assumir e as operações que 
  1 - Números
  	- Inteiros: valores inteiros, positivos ou negativos.
 		ex: 345, -10, 1321
-		
+	- Reais: Valores fracionários, positivos ou negativos.
+		ex: -20.3, 38.56
+ #include(visual2)
+ O operador % não pode ser utilizado com reais.
 
 
 
