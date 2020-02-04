@@ -103,6 +103,40 @@ Tipos de dados: Define os valores que um dado pode assumir e as operações que 
 		ex: -20.3, 38.56
  #include(visual2)
  O operador % não pode ser utilizado com reais.
+ 
+ 
+[...]
+Como obter a parte inteira da divisão (resultado truncado)?
+#include<stdio.h>
+
+main(){
+	
+	// quociente = (dividendo - (dividendo % divisor) / divisor)
+			//			13           3                   5
+	// ex = 13/5
+	/* dividendo = 13  d1
+		divisor = 5    d2
+		quociente = 2  q
+		resto = 3      r
+	*/
+	
+	
+	float d1, d2, q, r;
+	
+	printf("d1");
+	scanf("%f", &d1);
+	
+	printf("\n");
+	printf("d2");
+	scanf("%f", &d2);
+	
+	q = (d1 - (d1 % d2) / d2);
+	printf("%f", q);
+	
+	//nome dos alunos que tiveram a nota maior q a media da turma 
+	
+	
+}
 
 
 
