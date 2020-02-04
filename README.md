@@ -91,7 +91,7 @@ main(){
 	printf("A media eh %.2f", m2);
 }
 
-
+Tipos de dados numéricos em C
 
 
 
