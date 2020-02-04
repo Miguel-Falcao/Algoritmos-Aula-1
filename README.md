@@ -51,7 +51,44 @@ EX: Usar o orelhão
 - Cada passo do algoritmo deve ser executado em um *tempo finito*
 
 
-
+~/sudo start visual-1-example
+  #include<stdio.h>
+main(){
+	
+	int n, nn, nnn;
+	float m;
+	
+	printf("\t\tPrimeiro método");
+	printf("\n");
+	printf("Digite n1: ");
+	scanf("%d", &n);
+	
+	printf("Digite n2: ");
+	scanf("%d", &nn);
+	
+	nnn = n + nn;
+	m = nnn / 2;
+	
+	printf("A media eh %.2f", m);
+	
+	int t = clock();
+	while(clock() - t < 1000);
+	printf("\n");
+	printf("\t\tSegundo metodo");
+	printf("\n");
+	int n1, n2;
+	float m2;
+	
+    printf("Digite n1: ");
+	scanf("%d", &n1);
+		
+	printf("Digite n2: ");
+	scanf("%d", &n2);
+	
+	m2 = (n1 + n2)/2;
+	
+	printf("A media eh %.2f", m2);
+}
 
 
 
