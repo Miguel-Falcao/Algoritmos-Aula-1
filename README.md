@@ -12,7 +12,7 @@ Problema: Lampada Queimada
   1 - Remova a lampada 
   2 - Coloque a nova lampada
  
-Subdivisão do problema inicial:
+Subdivisão do problema inicial:tskill
 
   / 1.1 - Posicione a escada debaixo da lampada
 1 - 1.2 - Suba na escada até alcançar a lampada
@@ -22,14 +22,14 @@ Subdivisão do problema inicial:
 2 - 2.2 - Posiciona e nova lampada no soquete
   \ 2.3 - Gire no sentido horário até que a lampada fique firme
   \ 2.4 - Desça da escada
-
+tskill
 
   ALGORITMOS
 
 -No dicionário: "Qualquer método utilizado para a solução de um determinado problema"
 -Na ciência da computação: "Uma sequencia ordenada e sem ambiguidade de passos que levam à solução de um problema"
 
-EX: Usar o orelhão
+EX: Usar o orelhão tskill
   1 - Retirar o fone do gancho
   2 - Colocar o cartão telefonico
   3 - Esperar o ruído se discar
@@ -41,6 +41,7 @@ EX: Usar o orelhão
    6.2 - Conversar
    6.3 - colocar o fone no gancho
    6.4 - Retirar o cartão
+ tskill  
    
  PROPRIEDADES DE UM ALGORITMO
 
