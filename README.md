@@ -45,7 +45,7 @@ EX: Usar o orelhão tskill
    
  PROPRIEDADES DE UM ALGORITMO
 
--Cada *operação* deve ser *boa definida*
+-Cada *operação* deve ser *bem definida*
 - *Não ambíguo*
 - *Eficaz*: Consegue resolver o problema em qualquer situação
 - O algoritmo deve terminar após um *número finito de passos*
