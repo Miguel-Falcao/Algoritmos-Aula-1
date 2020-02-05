@@ -96,6 +96,7 @@ main(){
 Tipos de dados: Define os valores que um dado pode assumir e as operações que podem ser efetuadas sobre o dado.
 
   TIPOS PRIMITIVOS DE DADOS
+  
  1 - Números
  	- Inteiros: valores inteiros, positivos ou negativos.
 		ex: 345, -10, 1321
@@ -104,8 +105,11 @@ Tipos de dados: Define os valores que um dado pode assumir e as operações que 
  #include(visual2)
  O operador % não pode ser utilizado com reais.
  
+ Ex: Operadores / e %
+ 13/5 (int/int) = 2 (int)
+ 13/5.0 (int/double) = 2.6 (double)
+ 13 % 5 = 3  
  
-[...]
 Como obter a parte inteira da divisão (resultado truncado)?
 #include<stdio.h>
 
@@ -133,15 +137,31 @@ main(){
 	q = (d1 - (d1 % d2) / d2);
 	printf("%f", q);
 	
-	//nome dos alunos que tiveram a nota maior q a media da turma 
-	
-	
+	//fazer depois: printar nome dos alunos que tiveram a nota maior q a media da turma 
 }
 
+TIPOS DE DADOS NUMÉRICOS EM C:
+
+Tipo				|	Tamanho		|	Faixas de valores
+
+int(números inteiros)   	|	4 Bytes         |	-32768 a 32767
+Short(curto)			|	2 Bytes		|	-32768 a 32767
+Unsigned(sem sinal)		|	2 Bytes		|	-0 a 65.535
+Long(longo)			|	4 Bytes		|	-2,147,483,648 a 2,147,483,647
+Float(flutuant precisao simples)|	4 Bytes		|	3.4e-38 a 3.4e+38
+double				|    	8 Bytes  	|	1.7 E-308 a 1.7E+308
 
 
+2 - CARACTERES (1: line100)
+  - Representam as letras de (A - Z), os dígitos numéricos (0 - 9) e sinais especiais (Espaço em branco; sinais de pontuação)
+  - Aparecem entre aspas duplas
+  	ex: "Maria", "Casa 8"
 
-
+NA LINGUAGEM C:
+	Char = 1 byte
+	
+	ex: char nome[6];
+	T|E|S|T|E|\0|; O '\0' representa o fim da cadeia de caracterses
 
 
 
